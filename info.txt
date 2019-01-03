@@ -2,6 +2,7 @@
 1. npm run build
 3. In main.js set Vue.config.productionTip = true default is false
 2. create file vue.config.js and paste this code:
+NOTE: YOU HAVE TO SPECIFY THE DIRECTORY WHERE YOU WANT TO STORE THE BUILD PROJECT
 module.exports = {
   baseUrl: process.env.NODE_ENV === 'production'
     ? '/my-project/'
