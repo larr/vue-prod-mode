@@ -1,1 +1,10 @@
 
+1. npm run build
+3. In main.js set Vue.config.productionTip = true default is false
+2. create file vue.config.js and paste this code:
+module.exports = {
+  baseUrl: process.env.NODE_ENV === 'production'
+    ? '/my-project/'
+    : '/'
+}
+3. Done!
